@@ -24,5 +24,6 @@ else
 {
 printf("is negative");
 }
+printf("\n");
 return (0);
 }
