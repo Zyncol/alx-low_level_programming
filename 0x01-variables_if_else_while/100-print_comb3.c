@@ -13,7 +13,7 @@ for (a = 48; a <= 56; a++)
 for (b = a + 1; b < 57; b++)
 {
 putchar((char)a);
-putcha((char)b);
+putchar((char)b);
 if (a != 56)
 {
 putchar(',');
