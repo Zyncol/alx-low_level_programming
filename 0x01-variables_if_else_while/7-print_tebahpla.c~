@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+*main-entry point
+*Description: alphabet lowercase in reverse
+*REturn: 0 (success)
+*/
+int main(void)
+{
+char let;
+for (let = 'z'; let >= 'a'; let--)
+putchar(let);
+putchar('\n');
+return (0);
+}
