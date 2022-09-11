@@ -10,7 +10,7 @@ int a;
 int b;
 for (a = 48; a <= 56; a++)
 {
-for (b = a + 1; b < 57; b++)
+for (b = a + 1; b <= 57; b++)
 {
 putchar((char)a);
 putchar((char)b);
