@@ -17,6 +17,7 @@ c = a + b;
 printf(", %d", c);
 a = b;
 b = c;
+++d;
 }
 printf("\n");
 return (0);
