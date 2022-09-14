@@ -1,8 +1,9 @@
 #include "main.h"
 /**
 *jack_bauer - printing every minute of the day
+*Return: 0 (success)
 */
-void jack_bauer(void)
+int jack_bauer(void)
 {
 int min = 0;
 int hr;
@@ -21,4 +22,5 @@ min++;
 }
 hr++;
 }
+return (0);
 }
