@@ -13,8 +13,7 @@ if (n > 98)
 --n;
 else if (n < 98)
 ++n;
-_putchar(", ");
-_putchar(' ');
+printf(", ");
 }
 printf("%d", 98);
 printf("\n");
