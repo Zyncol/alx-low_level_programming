@@ -11,16 +11,12 @@ while (n != 98)
 {
 printf("%d", n);
 if (n > 98)
-{
 --n;
-}
 else if (n < 98)
-{
 ++n;
-}
 _putchar(',');
 _putchar(' ');
 }
 printf("%d", 98);
-printf('\n');
+printf("\n");
 }
