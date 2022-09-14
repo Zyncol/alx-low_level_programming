@@ -7,6 +7,8 @@
 int main(void)
 {
 int a, b, c, d;
+a = 1;
+b = 2;
 printf("%d, %d", a, b);
 d = 3;
 while (d <= 50)
