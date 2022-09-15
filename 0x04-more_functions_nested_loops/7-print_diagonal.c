@@ -23,7 +23,7 @@ if (d != e)
 _putchar(' ');
 else
 {
-_putchar('\$');
+_putchar('\\');
 }
 d++;
 }
