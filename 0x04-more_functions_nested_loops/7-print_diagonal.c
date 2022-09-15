@@ -20,9 +20,7 @@ for (e = 1; e <= n; e++)
 while (d <= e)
 {
 if (d != e)
-{
 _putchar(' ');
-}
 else
 {
 _putchar('\\');
