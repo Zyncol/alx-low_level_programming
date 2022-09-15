@@ -13,8 +13,9 @@ while (m <= 10)
 {
 for (n = 0; n <= 14; n++;)
 {
-_putchar('0' + n);
-_putchar('\n');
+if (n >= 10)
+_putchar('0' + 1);
+_putchar('0' + (n % 10));
 }
 m++;
 }
