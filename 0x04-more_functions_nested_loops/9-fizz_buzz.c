@@ -17,6 +17,8 @@ if (f % 3 == 0)
 printf("Fizz");
 else if (f % 5 == 0)
 printf("Buzz");
+else if (f % 15 == 0)
+printf("FizzBuzz");
 }
 else
 {
