@@ -6,23 +6,21 @@
 */
 int main(void)
 {
-int f = 1;
-printf("%d", f);
-for (f = 2; f <= 100; f++)
+int f;
+for (f = 1; f <= 100; f++)
 {
-printf(" ");
 if (f % 3 == 0 || f % 5 == 0)
 {
 if (f % 3 == 0)
-printf("Fizz");
+printf("Fizz ");
 else if (f % 5 == 0)
-printf("Buzz");
+printf("Buzz ");
 else if (f % 15 == 0)
-printf("FizzBuzz");
+printf("FizzBuzz ");
 }
 else
 {
-printf("%d\n", f);
+printf("%d ", f);
 }
 }
 printf("\n");
