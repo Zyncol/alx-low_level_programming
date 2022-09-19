@@ -8,7 +8,7 @@ void rev_string(char *s)
 int k;
 int j;
 char rev;
-j = _strngleng(b);
+j = _strlen(b);
 for (k = 0; k < j / 2; k++)
 {
 rev = b[k];
@@ -17,11 +17,11 @@ b[j - 1 - k] = rev;
 }
 }
 /**
-*_strngleng - determine the length
+*_strnlen - determine the length
 *@b: a string to be used
 *Return: length
 */
-int _strngleng(char *b)
+int _strlen(char *b)
 {
 int k;
 for (k = 0; b[k] != '\0'; k++)
