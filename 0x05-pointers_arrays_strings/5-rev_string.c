@@ -8,16 +8,16 @@ void rev_string(char *s)
 int k;
 int j;
 char rev;
-j = _strlen(b);
+j = _strlen(s);
 for (k = 0; k < j / 2; k++)
 {
-rev = b[k];
-b[k] = b[j - 1 - k];
-b[j - 1 - k] = rev;
+rev = s[k];
+s[k] = s[j - 1 - k];
+s[j - 1 - k] = rev;
 }
 }
 /**
-*_strnlen - determine the length
+*_strlen - determine the length
 *@b: a string to be used
 *Return: length
 */
