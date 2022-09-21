@@ -18,5 +18,5 @@ while (a < n)
 dest[a] = 0;
 a++;
 }
-return (0);
+return (dest);
 }
