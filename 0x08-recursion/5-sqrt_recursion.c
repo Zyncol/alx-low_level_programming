@@ -2,8 +2,10 @@
 /**
 *_sqrt_recursion - returns te square root of a number
 *@n: the number
+*@m: checks
 *Return: the square
 */
+int _square_root(int n, int m);
 int _sqrt_recursion(int n)
 {
 return (_square_root(n - 1));
