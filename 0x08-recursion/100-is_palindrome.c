@@ -1,0 +1,36 @@
+#include "main.h"
+/**
+*_strlen_recursion - returns length
+*@s: string
+*Return: length
+*/
+int _strlen_recursion(char *s)
+{
+if (*s == '\0')
+return (0);
+return (1 + _strlen_recursion(s + 1));
+}
+/**
+*checks_palindrome - checks a string
+*@s: string
+*@a: index
+*@b: index
+*Return: result
+*/
+int checks_palindrome(char *s, int a, int b)
+{
+if (a >= b)
+return (1);
+if (s[a] != s[b])
+return (0);
+return (checks_palindrome(s, a + 1, b - 1));
+}
+/**
+*is_palindrome - checks if its a palindrome
+*@s: string
+*Return: result
+*/
+int is_palindrome(char *s)
+{
+return (checks_palindrome(s, 0, _strlen_recursion(s) - 1));
+}
