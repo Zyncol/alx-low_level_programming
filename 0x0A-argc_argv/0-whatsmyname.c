@@ -8,6 +8,7 @@
 */
 int main(int argc, char *argv[])
 {
-printf("The program name is: %s\n", argv[0]);
+if (argc > 0)
+printf("The program name is :%s\n", argv[0]);
 return (0);
 }
