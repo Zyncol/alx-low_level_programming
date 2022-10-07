@@ -30,6 +30,6 @@ if (h < f1)
 ptr[h] = s1[h];
 else
 ptr[h] = s2[h - f1];
-ptr[h]= '\0';
+ptr[h] = '\0';
 return (ptr);
 }
