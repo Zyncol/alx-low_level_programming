@@ -21,7 +21,7 @@ if (!text_content)
 text_content = "";
 for (nletters = 0; text_content[nletters]; nletters++)
 ;
-wr = write(fd, text_content, nletters);
+wr = write(zen, text_content, nletters);
 if (wr == -1)
 return (-1);
 close(zen);
